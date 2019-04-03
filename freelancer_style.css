@@ -12,6 +12,10 @@ header{
   padding-top: 60px;
 }
 
+section{
+  padding: 60px 0;
+}
+
 .navbar{
   margin-bottom: 0;
   border: none;
