@@ -8,6 +8,10 @@
   src: url('fonts/Montserrat-Bold.otf');
 }
 
+header{
+  padding-top: 60px;
+}
+
 .navbar{
   margin-bottom: 0;
   border: none;
@@ -75,7 +79,8 @@
   margin-top: 50px;
 }
 
-.portfolio > .container > hr{
+.portfolio > .container > hr,
+.contact > .container > hr{
   border: 1px solid #2c3e50;
 }
 
@@ -115,7 +120,8 @@
 }
 
 
-input{
+input,
+textarea{
   width: 100%;
   height: 100%;
   border: none;
@@ -125,6 +131,7 @@ input{
   font-size: 35px;
   border-bottom: 1px solid rgba(0, 0, 0, .2);
 }
+
 
 footer{
   padding: 50px 0 0 0;
@@ -138,11 +145,11 @@ footer > .container > .row > h2{
   margin-bottom: 20px;
 }
 
-footer > .container > .link > ul{
+footer > .container > .row > .link > ul{
   padding: 0;
 }
 
-footer > .container > .link > ul > li{
+footer > .container > .row > .link > ul > li{
   display: inline-block;
   padding: 10px 15px;
   border: 1px solid white;
@@ -150,7 +157,7 @@ footer > .container > .link > ul > li{
   margin-right: 5px;
 }
 
-footer > .container > .link > ul > li :hover{
+footer > .container > .row > .link > ul > li :hover{
   background-color: white;
   background-size: cover;
 }
@@ -170,7 +177,7 @@ footer > .container > .link > ul > li :hover{
   padding: 30px 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .navbar-header > h1{
     padding-left: 10px;
   }

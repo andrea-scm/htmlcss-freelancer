@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="freelancer_style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="freelancer_style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelancer</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
             <h1>START BOOTSTRAP</h1>
@@ -56,11 +56,11 @@
       <div class="container">
         <h1 class="text-center">ABOUT</h1>
         <hr>
-        <div class="row col-lg-12 text-left margin-bottom">
-          <div class="about_txt row col-lg-5 col-lg-offset-1">
+        <div class="row text-left margin-bottom">
+          <div class="about_txt col-lg-4 col-lg-offset-2">
             <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
           </div>
-          <div class="about_txt row col-lg-5">
+          <div class="about_txt col-lg-4">
             <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
           </div>
         </div>
@@ -73,44 +73,48 @@
     <section class="contact margin-bottom">
       <div class="container">
         <h1 class="text-center">CONTACT ME</h1>
-        <div class="row col-lg-8 col-lg-offset-2">
-          <div class="name">
-            <input type="text" placeholder="Name">
+        <hr>
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="name">
+              <input type="text" placeholder="Name">
+            </div>
+            <div class="e-mail">
+              <input type="email" placeholder="E-mail Address">
+            </div>
+            <div class="phone">
+              <input type="text" placeholder="Phone Number">
+            </div>
+            <div class="msg">
+              <textarea name="name" rows="4" cols="80" placeholder="Message"></textarea>
+            </div>
           </div>
-          <div class="e-mail">
-            <input type="text" placeholder="E-mail Address">
-          </div>
-          <div class="phone">
-            <input type="text" placeholder="Phone Number">
-          </div>
-          <div class="msg">
-            <input type="text" placeholder="Message">
-          </div>
-
         </div>
       </div>
     </section>
 
     <footer>
       <div class="container">
-        <div class="row col-lg-3 text-center">
-          <h2>Location</h2>
-          <h4>2215 John Daniel Drive </h4>
-          <h4>Clark, MO 65243</h4>
-        </div>
-        <div class="row col-lg-6 text-center link">
-          <h2>Around the Web</h2>
-          <ul>
-            <li> <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a> </li>
-            <li> <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a> </li>
-            <li> <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a> </li>
-            <li> <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a> </li>
-            <li> <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a> </li>
-          </ul>
-        </div>
-        <div class="row col-lg-3 text-center">
-          <h2>About Freelancer</h2>
-          <p>Freelance is a free to use, open source Bootstrap theme created by <span> <a class = "footer-bootstrap-link" href="#">Start Bootstrap.</a> </span></p>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 text-center">
+            <h2>Location</h2>
+            <h4>2215 John Daniel Drive </h4>
+            <h4>Clark, MO 65243</h4>
+          </div>
+          <div class="col-lg-6 col-md-4 text-center link">
+            <h2>Around the Web</h2>
+            <ul>
+              <li> <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a> </li>
+              <li> <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a> </li>
+              <li> <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a> </li>
+              <li> <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a> </li>
+              <li> <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a> </li>
+            </ul>
+          </div>
+          <div class=" col-lg-3 col-md-4 text-center">
+            <h2>About Freelancer</h2>
+            <p>Freelance is a free to use, open source Bootstrap theme created by <span> <a class = "footer-bootstrap-link" href="#">Start Bootstrap.</a> </span></p>
+          </div>
         </div>
       </div>
       <div class="copy text-center">
